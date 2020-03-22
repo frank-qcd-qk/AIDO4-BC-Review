@@ -1,0 +1,115 @@
+/* Duckuments-specific CSS file */
+
+p{
+    margin-top: 1em;
+    margin-bottom: 0.5em;
+}
+
+/*
+body{
+    padding-left: 0;
+}
+
+section, p{
+    max-width: 100%;
+}
+
+section[status=beta], section[status=draft], section[status=unknown],
+section[status=to-update], section[status=recently-updated], section[status=deprecated]{
+    padding-right: 1em;
+}
+
+#tocdiv{
+    width: 30em;
+}
+
+#tocdiv ul:first-child{
+    padding: 10px;
+    border: 1px solid gray;
+    border-radius: 6px;
+    background-color: white;
+}
+
+#not-toc{
+    width: 520pt;
+    margin: auto;
+    font-size: 11pt;
+    padding: 20px;
+    margin-top: 1.4em;
+    border: 1px solid gray;
+    border-radius: 6px;
+    background-color: white;
+    transform: none;
+}
+
+#not-toc section ul{
+    text-indent: 11pt;
+}
+
+#not-toc section .video-vimeo-player{
+    width: 100%;
+    height: 18em;
+    margin-top: 1em;
+}
+
+#tocdiv ul li{
+    line-height: 1.5;
+}
+
+#not-toc ul li{
+    line-height: 1.4;
+}
+
+#tocdiv > ul > li > ul{
+    margin-left: 0.2em;
+    padding-left: 0.8em;
+    border-left: 3px solid lightgray;
+}
+
+#tocdiv > ul > li > ul > li > ul{
+    padding-left: 1.2em;
+}
+
+#not-toc .github-etc-links{
+    transform: scale(1.6);
+    outline: none;
+    border-radius: 4px;
+    background-color: #efeaea;
+    margin-right: 1em;
+    padding: 1.1pt 4pt 0.5pt 4pt;
+}
+
+#not-toc .github-etc-links .github-edit-link{
+    font-size: inherit;
+    color: black;
+}
+
+#not-toc .github-etc-links .purl-link{
+    font-size: 6pt;
+    margin: 0;
+    margin-left: 4pt;
+}
+
+#not-toc h4{
+    margin-top: 1.2em;
+}
+
+#not-toc section > .navigation:first-child{
+    margin-bottom: 2em;
+}
+
+#not-toc section > .navigation:last-child{
+    margin-top: 4em;
+}
+*/
+
+
+body:not(.show_todos) details.task,
+body:not(.show_todos) details.error {
+    display: none;
+}
+
+body.show_todos details.task,
+body.show_todos details.error {
+    display: block;
+}

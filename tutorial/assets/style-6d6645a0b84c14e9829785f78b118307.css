@@ -1,0 +1,21 @@
+
+        h1:not([id^="book"]) {
+            page-break-before: always;
+        }
+
+        .purl_link {
+            display:none;
+        }
+        #tocdiv {
+            position: fixed !important;
+            overflow: scroll;
+            /*height: 80vh;*/
+            overflow-x: hidden;
+            overflow-y: auto;
+        }
+
+        .link-same-file-direct-parent.toc_li_for_unknown .toc_li_for_part {
+            display: none;
+        }
+
+    
